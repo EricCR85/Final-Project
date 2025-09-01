@@ -366,7 +366,11 @@ header .row {
   display: flex;
 }
 
-.section__title--class2{
+.section__title{
+  align-items: left;
+}
+
+.section__title2{
   align-items: left;
 
 }
@@ -375,7 +379,7 @@ header .row {
   align-items: left;
 }
 
-#quality .section__title--class2 {
+#quality .section__{
   line-height: 1.25;
 }
 #quality .btn {
