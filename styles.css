@@ -46,7 +46,7 @@ body {
 }
 
 img {
-  width: 100%;
+  width: 50%;
 }
 
 p {
@@ -367,16 +367,16 @@ header .row {
 }
 
 .section__title{
-  align-items: left;
+  text-align: left;
 }
 
 .section__title2{
-  align-items: left;
+  text-align: left;
 
 }
 
 .section__para--class2{
-  align-items: left;
+  text-align: left;
 }
 
 #quality .section__{
