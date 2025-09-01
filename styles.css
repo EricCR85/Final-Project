@@ -313,7 +313,7 @@ header .row {
   line-height: 1.625;
 }
 
-.feature__img{
+.feature__img {
   width: 100%;
 }
 
@@ -370,24 +370,23 @@ header .row {
   display: flex;
 }
 
-.quality__img{
+.quality__img {
   width: 100%;
 }
 
-.section__title{
+.section__title {
   text-align: left;
 }
 
-.section__title2{
-  text-align: left;
-
-}
-
-.section__para--class2{
+.section__title2 {
   text-align: left;
 }
 
-#quality .section__{
+.section__para--class2 {
+  text-align: left;
+}
+
+#quality .section__ {
   line-height: 1.25;
 }
 #quality .btn {
@@ -404,7 +403,6 @@ header .row {
   align-items: center;
 }
 .steps__description {
-
   padding: 32px 0;
   padding-left: 64px;
 }
@@ -413,7 +411,6 @@ header .row {
   width: 50%;
   display: flex;
   position: relative;
-
 }
 
 .steps__img {
@@ -434,21 +431,21 @@ header .row {
   max-width: 320px;
 }
 
-.step__number{
+.step__number {
   color: #cbd5e0;
   font-size: 36px;
   font-weight: 600;
   line-height: 1;
 }
 
-.step__title{
+.step__title {
   font-weight: 600;
   font-size: 20px;
   color: #243e63;
   line-height: 1;
 }
 
-.step__para{
+.step__para {
   font-size: 14px;
   color: #718096;
   margin-top: 12px;
@@ -456,56 +453,62 @@ header .row {
   line-height: 2;
 }
 
-
-#values .row{
+#values .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.values__description{
+.value {
+  margin-top: 32px;
+  margin-right: 32px;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.values__description {
   width: 50%;
   padding: 32px 64px 32px 0;
 }
 
-.value__img{
+.value__img {
   width: 50%;
 }
 
-#values .section__title{
+#values .section__title {
   margin-top: 16px;
   margin-bottom: 32px;
-line-height: 1.25;
+  
 }
 
-.values__list{
-  margin-left: 0px;.
+.values__list {
+  margin-left: 0px;
   margin-right: 0px;
   display: flex;
   max-width: none;
   flex-direction: row;
 }
 
-.value__title{
+.value__title {
   display: flex;
   align-items: center;
 }
 
-.value__para{
+.value__para {
   margin-top: 16px;
   line-height: 1.625;
   color: #718096;
 }
 
-
-.value__name{
+.value__name {
   margin-left: 12px;
   font-size: 20px;
   font-weight: bold;
   color: #243e63;
 }
 
-.value__img-wrapper{
+.value__img--wrapper {
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -514,21 +517,21 @@ line-height: 1.25;
   height: 36px;
 }
 
-#value .btn{
+#value .btn {
   margin-top: 48px;
 }
 
-#pricing .row{
+#pricing .row {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#pricing .section__title{
+#pricing .section__title {
   text-align: center;
 }
 
-#pricing .section__para{
+#pricing .section__para {
   max-width: 576px;
   text-align: center;
 }
@@ -541,7 +544,7 @@ line-height: 1.25;
   justify-content: space-between;
 }
 
-.plan{
+.plan {
   position: relative;
   margin-top: 64px;
   width: 100%;
@@ -558,7 +561,7 @@ line-height: 1.25;
   color: rgb(26 32 44);
 }
 
-.plan__stripe{
+.plan__stripe {
   position: absolute;
   left: 0px;
   right: 0px;
@@ -568,7 +571,7 @@ line-height: 1.25;
   border-top-right-radius: 8px;
 }
 
-.plan__top{
+.plan__top {
   display: flex;
   flex-direction: column;
   padding-top: 32px;
@@ -577,24 +580,24 @@ line-height: 1.25;
   line-height: 1.625;
 }
 
-.plan__name{
+.plan__name {
   font-size: 20px;
   font-weight: bold;
   line-height: 1.625;
 }
 
-.plan__price{
+.plan__price {
   font-size: 48px;
   margin: 4px 0;
 }
 
-.plan__duration{
+.plan__duration {
   color: #a0aec0;
   font-size: 16px;
   letter-spacing: 1.6px;
 }
 
-.plan__middle{
+.plan__middle {
   margin-left: -32px;
   margin-right: -32px;
   display: flex;
@@ -602,14 +605,14 @@ line-height: 1.25;
   padding: 32px;
 }
 
-.plan__target{
+.plan__target {
   font-size: 20px;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.025;
 }
 
-.plan__feature{
+.plan__feature {
   margin-top: 20px;
   font-weight: 500;
   color: #718096;
@@ -617,12 +620,12 @@ line-height: 1.25;
   line-height: 1.5;
 }
 
-.plan__bottom{
+.plan__bottom {
   padding-left: 32px;
   padding-right: 32px;
 }
 
-.plan__button{
+.plan__button {
   border-radius: 4px;
   background-color: rgb(100 21 255);
   padding: 12px 32px;
@@ -638,11 +641,11 @@ line-height: 1.25;
   letter-spacing: 0.7px;
 }
 
-#textimonials .container{
+#textimonials .container {
   padding-top: 96px;
   padding-bottom: 96px;
 }
-#testimonials .row{
+#testimonials .row {
   margin-left: auto;
   margin-right: auto;
   max-width: 1280px;
@@ -651,32 +654,32 @@ line-height: 1.25;
   justify-content: space-between;
 }
 
-.testimonials__img{
+.testimonials__img {
   width: 40%;
 }
 
-.testimonials__description{
-  width: calc(100%/40%);
+.testimonials__description {
+  width: calc(100% / 40%);
   display: flex;
   flex-direction: column;
   padding-left: 64px;
 }
 
-#testimonials .section__title{
+#testimonials .section__title {
   margin-bottom: 24px;
   line-height: 1.25;
 }
-.testimonial{
+.testimonial {
   margin-top: 40px;
 }
 
-.testimonial__rating{
+.testimonial__rating {
   color: rgb(246, 173, 85);
   margin-right: 2px;
   margin-top: 4px;
 }
 
-.testimonial__para{
+.testimonial__para {
   margin-top: 16px;
   margin-bottom: 32px;
   font-weight: 500;
@@ -685,17 +688,17 @@ line-height: 1.25;
   color: rgb(74, 85, 104);
 }
 
-.testimonial__bottom{
+.testimonial__bottom {
   display: flex;
   justify-content: space-between;
 }
 
-#start .row{
+#start .row {
   position: relative;
   overflow: hidden;
 }
 
-.footer{
+.footer {
   padding: 96px 32px;
   background-color: rgb(100 21 255);
   margin-bottom: 32px;
@@ -703,7 +706,7 @@ line-height: 1.25;
   overflow: hidden;
 }
 
-.footer__blob--1{
+.footer__blob--1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -714,14 +717,14 @@ line-height: 1.25;
   opacity: 0.5;
 }
 
-.footer__columns{
+.footer__columns {
   margin-top: -48px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.footer__column{
+.footer__column {
   margin-top: 48px;
   display: flex;
   flex-direction: column;
@@ -729,13 +732,13 @@ line-height: 1.25;
   z-index: 2;
 }
 
-.footer__column--title{
+.footer__column--title {
   font-weight: 700;
   color: #f7fafc;
   line-height: 1.5;
 }
 
-.footer__column--link{
+.footer__column--link {
   color: #f7fafc;
   font-size: 14px;
   margin-top: 12px;
@@ -745,6 +748,6 @@ line-height: 1.25;
   cursor: pointer;
 }
 
-.footer__column--link:nth-child(2){
+.footer__column--link:nth-child(2) {
   margin-top: 24px;
 }
