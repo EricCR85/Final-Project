@@ -313,6 +313,10 @@ header .row {
   line-height: 1.625;
 }
 
+.feature__img{
+  width: 100%;
+}
+
 .features {
   display: flex;
   flex-wrap: wrap;
@@ -366,6 +370,10 @@ header .row {
   display: flex;
 }
 
+.quality__img{
+  width: 100%;
+}
+
 .section__title{
   text-align: left;
 }
@@ -410,6 +418,7 @@ header .row {
 
 .steps__img {
   z-index: 2;
+  width: 100%;
 }
 
 .step {
@@ -470,12 +479,13 @@ line-height: 1.25;
 }
 
 .values__list{
-  margin-left: 0px;
+  margin-left: 0px;.
   margin-right: 0px;
   display: flex;
   max-width: none;
   flex-direction: row;
 }
+
 .value__title{
   display: flex;
   align-items: center;
@@ -486,6 +496,7 @@ line-height: 1.25;
   line-height: 1.625;
   color: #718096;
 }
+
 
 .value__name{
   margin-left: 12px;
