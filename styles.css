@@ -178,7 +178,7 @@ header .row {
   align-items: center;
   width: 40%;
   max-width: 512px;
-  margin: 0 auto;
+  
 }
 .header__customers {
   padding-right: 64px;
@@ -254,7 +254,7 @@ header .row {
 }
 
 .btn__menu {
-  display: block;
+  display: none;
 }
 
 .btn__menu--close {
