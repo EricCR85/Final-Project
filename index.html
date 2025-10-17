@@ -6,6 +6,7 @@
     <title>Final Project</title>
   </head>
   <link rel="stylesheet" href="styles.css" />
+  <script src="index.js"></script>
   <body>
     <section id="landing">
       <nav>
@@ -26,7 +27,12 @@
             <a href="#" class="nav__link">Login</a>
             <a href="#" class="nav__link nav__link--primary">Sign Up</a>
           </div>
-          <button class="btn__menu" onclick="openMenu()"></button>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fa-brands fa-bars"></i>
+          </button>
+          <div class="menu__backdrop"></div>
+
+
         </div>
       </nav>
       <div class="menu">
