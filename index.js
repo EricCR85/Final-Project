@@ -7,8 +7,8 @@ function closeMenu(){
 
 }
 const burgerMenu = document.getElementById('burgerMenu');
-const navMenu = document.getElementById('navMenu');
+const navLinks = document.getElementById('.nav__links');
 
 burgerMenu.addEventListener('click', ()=>{
-    navMenu.style.display = navMenu.style.display === 'black'? 'none': 'block';
-})
+   navLinks.classList.toggle('nav--visible');
+});
