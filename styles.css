@@ -1003,6 +1003,8 @@ background-color: #fc0303;
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid white;
 }
 .footer__blob--1 {
   position: absolute;
