@@ -788,8 +788,9 @@ header .row {
   margin-top: 40px;
 }
 
-.testimonial__rating {
+.testimonial__stars {
   color: rgb(246, 173, 85);
+  font-size: 30px;
   margin-right: 2px;
   margin-top: 4px;
 }
