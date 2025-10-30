@@ -190,6 +190,7 @@ nav {
   line-height: 1;
 }
 
+
 .header__img--wrapper {
   display: flex;
   justify-content: flex-end;
@@ -838,7 +839,7 @@ header .row {
   align-items: center;
 }
 
-.start__title {
+h2 {
   color: #f7fafc;
   font-size: 30px;
   font-weight: 700;
