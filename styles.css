@@ -868,7 +868,7 @@ header .row {
   background-color: rgb(100 21 255);
   border-radius: 8px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -878,6 +878,8 @@ h2 {
   font-weight: 700;
   line-height: 1.5;
   z-index: 2;
+  margin-left: 30px;
+  
 }
 .btn {
   background-color: #f56565;
