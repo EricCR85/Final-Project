@@ -197,7 +197,7 @@ nav {
 
 .header__img {
   width: 100%;
-  max-width: 512px;
+ max-width: 768px;
 }
 
 header .row {
@@ -205,15 +205,16 @@ header .row {
   justify-content: space-between;
 }
 .header__description {
-  text-align: center;
+  text-align: left;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:left
+  ;
   width: 40%;
   max-width: 512px;
 }
 .header__customers {
-  padding-right: 64px;
+  padding-right: 128px;
   margin-top: 16px;
   opacity: 0.5;
 }
@@ -376,6 +377,9 @@ header .row {
   line-height: 2;
   font-weight: 500;
 }
+.feature__title{
+  color: black;
+}
 
 #quality .row {
   display: flex;
@@ -399,7 +403,7 @@ header .row {
 }
 
 .quality__img {
-  width: 100%;
+  width: 80%;
 }
 .section__tag {
   font-size: 16px;
@@ -431,6 +435,7 @@ header .row {
 .quality__img {
   z-index: 1;
 }
+
 
 #steps .row {
   display: flex;
@@ -471,7 +476,7 @@ header .row {
   color: #cbd5e0;
   font-size: 36px;
   font-weight: 600;
-  line-height: 1;
+  line-height: 2.5;
 }
 
 .step__title {
@@ -515,7 +520,7 @@ header .row {
 }
 
 .value__img {
-  width: 50%;
+  width: 100%;
 }
 
 #values .section__title {
