@@ -1061,7 +1061,7 @@ body {
   margin: 4px 0;
   transition: all 0.3s ease;
 }
-@media(max-width: 728px){
+@media(max-width: 1028px){
  h1{
   font-size: 30px;
  }
