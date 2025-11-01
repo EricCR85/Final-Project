@@ -1061,7 +1061,7 @@ body {
   margin: 4px 0;
   transition: all 0.3s ease;
 }
-@media(max-width: 1028px){
+@media(max-width: 1024px){
  h1{
   font-size: 30px;
  }
@@ -1090,9 +1090,70 @@ body {
   font-size: 48px;
   align-items: center;
  }
- .section__para{
-  font-size: 16px;
+ .feature__row{
+  padding: 32px 8px;
+  margin: 0 16px;
  }
+ .feature{
+  width: calc(50%);
+ }
+ .feature__para{
+  max-width: none;
+ }
+ .feature__title{
+   line-height: 1;
+  }
+  .quality__description{
+    margin-right: 0px;
+    padding-right: 40px;
+  }
+  .section__para{
+   font-size: 16px;
+  }
+  #quality .section__title{
+    line-height: 1.25;
+  }
+  .section__title{
+    font-size: 36px;
+  }
+  .values__list{
+    max-width: 20rem;
+    flex-direction: column;
+  }
+#pricing .section__title{
+  font-size: 48px;
+}
+.plans{
+flex-direction: column;
+align-items: center;  
+}
+.plan{
+  margin-right: 0px;
+}
+.testimonials__img{
+  width: 40%;
+}
+.testimonials__description{
+  padding-left: 48px;
+}
+.start__row{
+  flex-direction: column;
+}
+.start__title{
+  text-align: center;
+  width: 100%;
+  max-width: 512px;
+}
+.start__buttons{
+  width: auto;
+  margin-top: 24px;
+}
+.start__button{
+  padding: 16px 32px;
+}
+.footer{
+  padding: 80px 32px;
+}
 }
 
 
